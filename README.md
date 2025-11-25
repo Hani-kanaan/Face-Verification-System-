@@ -1,5 +1,6 @@
 Face Verification System 
 This notebook implements a face verification pipeline using the DeepFace library. It compares two images and determines whether they belong to the same person using a chosen deep learning model and distance metric.
+
 The notebook installs or imports:
 •	DeepFace — main face recognition framework
 •	opencv-python (cv2) — image loading, preprocessing, visualization
@@ -7,7 +8,6 @@ The notebook installs or imports:
 •	numpy — numerical operations
 •	pandas — general utilities
 •	requests, tqdm, gdown — internal DeepFace dependencies
-These are automatically handled when you install DeepFace:
 DeepFace verifies the images through:
 1.	Face Detection
 Finds faces inside input images.
