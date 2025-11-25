@@ -8,6 +8,7 @@ The notebook installs or imports:
 •	numpy — numerical operations
 •	pandas — general utilities
 •	requests, tqdm, gdown — internal DeepFace dependencies
+
 DeepFace verifies the images through:
 1.	Face Detection
 Finds faces inside input images.
